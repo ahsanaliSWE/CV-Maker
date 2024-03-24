@@ -3,9 +3,9 @@
 This project is a web application developed using HTML, CSS, and JavaScript that enables users to create professional resumes effortlessly. It features a user-friendly form for entering personal details, education, work experience, and skills. The website dynamically generates a resume template based on the input provided by the user. Users can preview and print the generated resume for offline use.
 
 ## Developers
-- Ahsan Ali (20SW135)
-- Akash Kumar (20SW053)
 - Awais Chandio (20SW045)
+- Akash Kumar (20SW053)
+- Ahsan Ali (20SW135)
 - Irfan Baloch (20-19SW65)
 
 ## Features
