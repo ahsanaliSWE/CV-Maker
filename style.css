@@ -1,0 +1,125 @@
+/* Base styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  body {
+	background-image: linear-gradient(to right, #f0f0f0, #e0e0e0); /* Light gray gradient background */
+	background-attachment: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .resume-builder {
+	padding: 30px;
+	margin: 50px auto;
+	max-width: 800px;
+	border: 1px solid rgba(0, 0, 0, 0.1); /* Subtle border */
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .container {
+	background-color: #fff; /* White background for content */
+	padding: 20px;
+	border-radius: 5px;
+  }
+  
+  .container h1 {
+	text-align: center;
+	padding: 15px;
+	color: #333; /* Dark text for heading */
+	font-size: 24px;
+	background-color: #2980b9; /* Blue accent color for heading */
+	margin-bottom: 20px;
+  }
+  
+  /* Form elements */
+  input,
+  textarea {
+	background-color: #f5f5f5; /* Light gray background */
+	margin: 10px 0;
+	padding: 10px;
+	outline: none;
+	border: 1px solid #ccc; /* Light gray border */
+	border-radius: 3px;
+	display: block;
+	width: 100%;
+  }
+  
+  textarea {
+	height: 100px; /* Minimum height for textareas */
+  }
+  
+  /* Footer */
+  footer {
+	text-align: center;
+	background-color: #3498db; /* Dark blue accent color */
+	color: #fff; /* White text color */
+	padding: 10px;
+  }
+  
+  button {
+	border: none;
+	background-color: #2980b9; /* Blue accent color */
+	padding: 15px 30px;
+	color: #fff; /* White text color */
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+  }
+  
+  button:hover {
+	background-color: #3498db; /* Darker blue on hover */
+  }
+  
+  /* Media queries for responsive design */
+  @media screen and (max-width: 768px) {
+	.resume-builder {
+	  padding: 20px;
+	}
+  
+	h1 {
+	  font-size: 20px;
+	}
+  
+	.container {
+	  padding: 15px;
+	}
+  }
+  
+  /* Customization suggestions */
+  
+  .container h2 { /* Add section headings */
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 18px;
+	color: #2980b9;
+  }
+  
+  .info { /* Style for sections with left and right content */
+	display: flex;
+	flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+	margin-bottom: 15px;
+  }
+  
+  .left,
+  .right {
+	flex: 1; /* Divide space equally */
+	padding: 10px;
+  }
+  
+  .box { /* Style information within sections */
+	margin-bottom: 5px;
+  }
+  
+  .box h3 { /* Optional subheadings */
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 5px;
+  }
+  

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume Creator</title>
+  <!-- External CSS file -->
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    @media print {
+      /* Hide the buttons */
+      button {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Main section for resume builder -->
+  <section class="resume-builder">
+    <div class="container">
+      <!-- Heading -->
+      <h1 class="heading">CV MAKER</h1>
+      <!-- Form for input fields -->
+      <div class="resume_container">
+        <form class="inputField">
+          <!-- Input fields for resume details -->
+          <input type="text" name="name" placeholder="Your Name" title="Enter Your Name" />
+          <input type="text" name="designation" placeholder="Designation" title="Designation" />
+          <textarea name="work_experience" placeholder="Work Experience" cols="40" rows="3" title="Enter Your Work Experience"></textarea>
+          <textarea name="academic_details" placeholder="Academic Details" cols="40" rows="3" title="Enter Your Academic Details"></textarea>
+          <input type="text" placeholder="Objective" title="Enter Your Objective" name="objective" />
+          <textarea name="skills" title="Enter Your Skills" placeholder="Skills" cols="40" rows="3"></textarea>
+          <textarea name="projects" title="Enter Your Projects" placeholder="Projects" cols="40" rows="3"></textarea>
+          <textarea name="achievements" placeholder="Achievements" cols="40" rows="3" title="Enter Your Achievements"></textarea>
+          <textarea name="contact" placeholder="Contact Information" cols="40" rows="3" title="Enter Your Contact Information"></textarea>
+        </form>
+      </div>
+      <!-- Footer -->
+      <footer class="footer">
+        copywrite | 2024 | MUET-SW | THANKYOU
+      </footer>
+    </div>
+  </section>
+  <!-- Output container for displaying generated resume -->
+  <div class="output_container"></div>
+  <!-- Button to generate/edit resume -->
+  <button onclick="hide()">Generate / Edit</button>
+
+  <!-- External JavaScript file -->
+  <script src="script.js"></script>
+</body>
+
+</html>
