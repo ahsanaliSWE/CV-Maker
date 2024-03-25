@@ -70,19 +70,6 @@ CREATE TABLE `experience` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `images`
---
-
-CREATE TABLE `images` (
-  `image_id` int(11) NOT NULL,
-  `resume_id` int(11) NOT NULL,
-  `photo` varchar(255) NOT NULL,
-  `signature` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `languages`
 --
 
@@ -165,11 +152,6 @@ ALTER TABLE `education`
 ALTER TABLE `experience`
   ADD PRIMARY KEY (`experience_id`);
 
---
--- Indexes for table `images`
---
-ALTER TABLE `images`
-  ADD PRIMARY KEY (`image_id`);
 
 --
 -- Indexes for table `languages`
@@ -216,12 +198,6 @@ ALTER TABLE `education`
 --
 ALTER TABLE `experience`
   MODIFY `experience_id` int(11) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `images`
---
-ALTER TABLE `images`
-  MODIFY `image_id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `languages`
