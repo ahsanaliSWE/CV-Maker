@@ -1,0 +1,143 @@
+a {
+    text-decoration: none !important;
+}
+
+.auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+
+}
+
+
+.register-auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+
+.login-card {
+    width: 500px;
+    height: 400px;
+
+}
+
+.wrapper {
+    min-height: 85vh;
+}
+
+.register-card {
+    width: 800px;
+    margin-bottom: 100px;
+}
+
+.navbar {
+    background-color: #722EF8;
+}
+
+.navbar-brand {
+    color: #fff !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.card-inside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: #722EF8 !important;
+    border: none !important;
+}
+
+.btn-danger {
+    background-color: #ff146e !important;
+    border: none !important;
+}
+
+.required {
+    color: red;
+}
+
+.resume-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logout a {
+    color: #fff;
+}
+
+.logout a:hover {
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 10px;
+}
+
+@page {
+    size: a4;
+}
+
+@media print {
+    @page {
+        margin: 0;
+    }
+
+    body {
+        margin: 30px !important;
+        float: none;
+    }
+
+    .print-button {
+        display: none;
+    }
+
+    div.pagebreak {
+        page-break-before: always;
+        page-break-inside: avoid;
+    }
+}
+
+.name {
+    color: rgba(34, 95, 209, 0.945);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+
+.education {
+    font-size: 18px;
+}
+
+.objective {
+    padding-right: 10px;
+}
+
+.photo img {
+    height: 180px;
+    width: 160px;
+}
+
+.signature img {
+    width: 130px;
+    height: 60px;
+}
+
+.resume-heading {
+    color: rgba(34, 95, 209, 0.945);
+    font-weight: bold;
+}
