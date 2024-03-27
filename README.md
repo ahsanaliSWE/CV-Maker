@@ -6,7 +6,7 @@ Users can create an account to save their information securely in a MySQL databa
 
 This integrated functionality allows users to securely store their information and conveniently generate and print their resumes whenever needed.
 
-## Group
+## Group Members
 - Awais Chandio (20SW045)
 - Akash Kumar (20SW053)
 - Ahsan Ali (20SW135)
