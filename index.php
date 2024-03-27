@@ -20,7 +20,7 @@ if (isset($_SESSION['user_id'])) {
 <body>
     <div class="wrapper">
         <div class="auth">
-            <h3>CV Maker</h3>
+            <h3 style="font-weight:bold">CV Maker</h3>
             <div class="mt-3">
                 <?php
                 $url = "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
@@ -55,7 +55,7 @@ if (isset($_SESSION['user_id'])) {
                                 <label class="form-label">Password</label>
                                 <input type="password" class="form-control" name="password" required>
                             </div>
-                            <button type="submit" class="btn btn-primary">Login</button> <br> <br>
+                            <button type="submit" class="btn" style="background-color: #20c997;color:white">Login</button> <br> <br>
                             Don't have an account? <a href="register.php">Create Here</a>
                         </form>
                     </div>
