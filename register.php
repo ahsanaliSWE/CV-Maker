@@ -19,7 +19,7 @@ if (isset($_SESSION['user_id'])) {
 
 <body>
     <div class="register-auth">
-        <h3>Register</h3>
+        <h3 style="font-weight:bold">Register</h3>
         <div class="register-card mt-5">
             <div class="card shadow">
                 <div class="card-body">
@@ -100,7 +100,7 @@ if (isset($_SESSION['user_id'])) {
                                     </div>
                                 </div>
                             </div>
-                            <button type="submit" name="submit" class="btn btn-primary">Login</button> <br> <br>
+                            <button type="submit" name="submit" class="btn" style="background-color: #20c997;color:white">Login</button> <br> <br>
                             Already registered? <a href="index.php">Login Here</a>
                         </form>
                     </form>
