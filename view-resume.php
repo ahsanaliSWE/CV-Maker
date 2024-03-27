@@ -140,7 +140,7 @@ if (!isset($_SESSION['user_id'])) {
         </div>
     </div>
     <div style="text-align: center; margin-top: 20px;">
-        <button onclick="printResume()" class="btn btn-primary" id="printButton">Print CV</button>
+        <button onclick="printResume()" class="btn" id="printButton" style="background-color:#7BEC9C;color:white">Print CV</button>
     </div>
 
 
