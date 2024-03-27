@@ -24,19 +24,22 @@ if (!isset($_SESSION['user_id'])) {
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color:#20c997">
         <div class="container">
-            <a class="navbar-brand" href="dashboard">CV Maker</a>
+            <a class="navbar-brand" href="dashboard">
+                <img src="https://cdn-icons-png.flaticon.com/256/3135/3135742.png" alt="Bootstrap" width="30" height="35">
+            </a>
+            <a class="navbar-brand" href="dashboard" style="font-weight: bold;">CV Maker</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="dashboard">Dashboard</a>
+                        <a class="nav-link" href="create-resume">Create CV</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="create-resume">Create CV</a>
+                        <a class="nav-link" href="about-us">About us</a>
                     </li>
                 </ul>
                 <div class="d-flex">
@@ -319,7 +322,7 @@ if (!isset($_SESSION['user_id'])) {
             </div>
             <span class="required">*</span> Fields are mandatory.
             <div class=" mt-3 mb-5">
-                <button type="submit" name="submit" class="btn btn-primary">Submit</button> <br>
+                <button type="submit" name="submit" class="btn" style="background-color:#20c997;color:white">Submit</button> <br>
             </div>
         </form>
     </div>
